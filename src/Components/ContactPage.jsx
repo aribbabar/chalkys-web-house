@@ -30,7 +30,11 @@ const ContactPage = ({ variants }) => {
       <div className={styles.topSection}>
         <h1>Connect with me through LinkedIn or Upwork</h1>
         <div className={styles.iconsContainer}>
-          <a href="https://www.linkedin.com/in/aribfarooqui/">
+          <a
+            href="https://www.linkedin.com/in/aribfarooqui/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-brands fa-linkedin fa-2x"></i>
           </a>
           <i>
