@@ -1,0 +1,84 @@
+.container main {
+  padding: 2rem;
+  background-color: #fff;
+  border-top-left-radius: var(--section-border-radius);
+  border-top-right-radius: var(--section-border-radius);
+  min-height: 90vh;
+  color: var(--primary-color);
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container main img {
+  border-radius: 100%;
+  border: 2px solid var(--primary-color);
+  max-width: 250px;
+  margin: 1rem auto;
+  transition: 0.2s ease-in-out;
+}
+
+.container main img:hover {
+  transform: scale(1.05);
+}
+
+.textContainer {
+  min-width: 250px;
+  max-width: 450px;
+}
+
+.container main h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container main h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0.2rem 0;
+}
+
+.container main p {
+  margin: 0.4rem 0;
+}
+
+.footerIconsContainer {
+  text-align: center;
+}
+
+.footerIconsContainer * {
+  margin: 1rem;
+  transition: transform 0.2s;
+}
+
+.footerIconsContainer *:hover {
+  transform: scale(1.2);
+}
+
+.footerIconsContainer a {
+  position: relative;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.footerIconsContainer *:hover .tooltip {
+  visibility: visible;
+}

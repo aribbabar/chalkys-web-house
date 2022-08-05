@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: #fff;
+  min-height: 10vh;
+}
+
+.backBtnContainer {
+  position: absolute;
+}
+
+.backBtn {
+  width: 50px;
+  transition: 0.2s ease-in-out;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.5, 4);
+  margin-left: 1rem;
+}
+
+.header img:hover {
+  transform: translateX(-5px);
+  cursor: pointer;
+}
+
+.header h1 {
+  margin: 0 auto;
+}

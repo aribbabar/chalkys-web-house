@@ -1,13 +1,57 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #0583d2;
+  --secondary-color: #ffb703;
+  --tertiary-color: #023047;
+  --section-border-radius: 50px;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: 0;
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 12px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.line-break-container {
+  background-color: #fff;
+}
+
+.line-break {
+  margin: 0 auto;
+  border-radius: 12px;
+  width: 70%;
+  height: 2px;
+  background-color: var(--primary-color);
 }
