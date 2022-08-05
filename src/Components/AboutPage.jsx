@@ -31,19 +31,35 @@ const AboutPage = ({ variants, transition }) => {
           </p>
         </div>
         <div className={styles.footerIconsContainer}>
-          <a href="https://github.com/aribbabar">
+          <a
+            href="https://github.com/aribbabar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-brands fa-github fa-2x"></i>
             <span className={styles.tooltip}>Github</span>
           </a>
-          <a href="https://aribbabar.github.io/react-portfolio/">
+          <a
+            href="https://aribbabar.github.io/react-portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-solid fa-globe fa-2x"></i>
             <span className={styles.tooltip}>Student Portfolio</span>
           </a>
-          <a href="https://twitter.com/AribFarooqui">
+          <a
+            href="https://twitter.com/AribFarooqui"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-brands fa-twitter fa-2x"></i>
             <span className={styles.tooltip}>Twitter</span>
           </a>
-          <a href="https://www.linkedin.com/in/aribfarooqui/">
+          <a
+            href="https://www.linkedin.com/in/aribfarooqui/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-brands fa-linkedin fa-2x"></i>
             <span className={styles.tooltip}>LinkedIn</span>
           </a>

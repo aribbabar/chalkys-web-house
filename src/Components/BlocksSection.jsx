@@ -20,10 +20,16 @@ const BlocksSection = () => {
           <p>Services</p>
         </div>
       </Link>
-      <div className={styles.blockContainer}>
-        <img src={BlogIcon} alt="blog icon" />
-        <p>Blog</p>
-      </div>
+      <a
+        href="https://blog.chalkys.net/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.blockContainer}>
+          <img src={BlogIcon} alt="blog icon" />
+          <p>Blog</p>
+        </div>
+      </a>
       <Link to="/contact">
         <div className={styles.blockContainer}>
           <img src={ContactIcon} alt="contact icon" />
