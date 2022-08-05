@@ -30,17 +30,17 @@ const ServicesPage = ({ variants }) => {
             <h3>Custom CMS</h3>
             <p>
               We provide custom integration solutions with a CMS of your choice.
-              We can work with Wordpress, Webflow, Shopfify, Contentful, just to
-              name a few. Contact for more details!
+              We can work with WordPress, Webflow, Shopify and Contentful, just
+              to name a few. Contact me for more details!
             </p>
           </div>
           <div className={styles.serviceContainer}>
             <img src={modernFrameworks} alt="react image" />
             <h3>Modern JS Frameworks</h3>
             <p>
-              We offer services for majority of modern front-end frameworks. We
-              have worked with React.JS, Next.JS, Gatsby, just to name a few. We
-              also offer back end solutions with Node.JS.
+              We offer services for the majority of modern front-end frameworks.
+              We have worked with React.JS, Next.JS and Gatsby, just to name a
+              few. We also offer back-end solutions with NodeJS.
             </p>
           </div>
         </section>
