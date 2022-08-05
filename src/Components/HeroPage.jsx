@@ -12,7 +12,6 @@ const HeroPage = ({ variants, transition }) => {
       animate="animate"
       exit="exit"
       transition={transition}
-      scroll={false}
     >
       <Header />
       <BlocksSection />
