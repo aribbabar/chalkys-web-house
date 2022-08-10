@@ -33,7 +33,7 @@ const Header = () => {
     <header className={styles.header}>
       <img src={logo} alt="logo" />
       <h1>Custom Web Solutions</h1>
-      <h2>We create web applications that are customized to your needs</h2>
+      <h2>We provide web services to web developers</h2>
       <Link to="/contact">
         <button className={styles.btn}>Contact</button>
       </Link>
@@ -57,19 +57,19 @@ const Header = () => {
         extensions={{ AutoScroll }}
       >
         <SplideSlide>
-          <p className={styles.slide}>#trustworthy</p>
+          <p className={styles.slide}>#html</p>
         </SplideSlide>
         <SplideSlide>
-          <p className={styles.slide}>#safety</p>
+          <p className={styles.slide}>#css</p>
         </SplideSlide>
         <SplideSlide>
-          <p className={styles.slide}>#highquality</p>
+          <p className={styles.slide}>#javascript</p>
         </SplideSlide>
         <SplideSlide>
           <p className={styles.slide}>#webdev</p>
         </SplideSlide>
         <SplideSlide>
-          <p className={styles.slide}>#freelancer</p>
+          <p className={styles.slide}>#freelance</p>
         </SplideSlide>
         <SplideSlide>
           <p className={styles.slide}>#webdesign</p>
