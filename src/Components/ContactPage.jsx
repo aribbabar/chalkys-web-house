@@ -38,7 +38,13 @@ const ContactPage = ({ variants }) => {
             <i className="fa-brands fa-linkedin fa-2x"></i>
           </a>
           <i>
-            <UpworkIcon width={28} />
+            <a
+              href="https://www.upwork.com/freelancers/~0198c089a4cbe2da95"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <UpworkIcon width={28} />
+            </a>
           </i>
         </div>
       </div>

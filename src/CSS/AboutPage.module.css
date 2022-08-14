@@ -54,7 +54,7 @@
   transition: transform 0.2s;
 }
 
-.footerIconsContainer *:hover {
+.footerIconsContainer a:hover i {
   transform: scale(1.2);
 }
 

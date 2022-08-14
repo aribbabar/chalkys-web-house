@@ -29,7 +29,7 @@
   margin-top: 1rem;
 }
 
-.iconsContainer > * {
+.iconsContainer * {
   transition: 0.2s;
 }
 
@@ -38,21 +38,29 @@
   cursor: pointer;
 }
 
+.iconsContainer a svg:hover {
+  transform: scale(1.2);
+}
+
 .bottomSection {
   min-height: 70vh;
   padding: 2rem;
   width: 100%;
   background-color: #fff;
   color: var(--primary-color);
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
+.bottomSection h1 {
+  text-align: center;
+}
+
 .bottomSection p {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .form {
