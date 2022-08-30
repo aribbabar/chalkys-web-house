@@ -29,17 +29,40 @@
   margin-top: 1rem;
 }
 
-.iconsContainer * {
+.iconsContainer a {
+  position: relative;
+}
+
+.iconsContainer a i,
+.iconsContainer a svg {
   transition: 0.2s;
 }
 
-.iconsContainer > *:hover {
+.iconsContainer a:hover i,
+.iconsContainer a:hover svg {
   transform: scale(1.2);
-  cursor: pointer;
 }
 
-.iconsContainer a svg:hover {
-  transform: scale(1.2);
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-top: 0.5rem;
+  margin-left: -60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.iconsContainer a:hover .tooltip {
+  visibility: visible;
 }
 
 .bottomSection {

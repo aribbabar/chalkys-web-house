@@ -9,13 +9,12 @@ const ContactPage = ({ variants }) => {
 
     const firstName = e.target.firstName.value;
     const lastName = e.target.lastName.value;
-    const email = e.target.email.value;
     const message = e.target.message.value;
     const additionalDetails = e.target.additionalDetails.value;
 
     const body = `Hi! I'm ${firstName} ${lastName}%0D%0A%0D%0A${message}%0D%0A%0D%0A${additionalDetails}%0D%0A%0D%0A`;
 
-    window.location = `mailto:${email}?subject=You can change this if you'd like&body=${body}`;
+    window.location = `mailto:chalkyproduct@gmail.com?subject=You can change this if you'd like&body=${body}`;
   }
 
   return (
@@ -36,6 +35,7 @@ const ContactPage = ({ variants }) => {
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-linkedin fa-2x"></i>
+            <span className={styles.tooltip}>LinkedIn</span>
           </a>
           <i>
             <a
@@ -44,6 +44,7 @@ const ContactPage = ({ variants }) => {
               rel="noopener noreferrer"
             >
               <UpworkIcon width={28} />
+              <span className={styles.tooltip}>Upwork</span>
             </a>
           </i>
         </div>
@@ -66,12 +67,6 @@ const ContactPage = ({ variants }) => {
               Last Name <span className={styles.red}>*</span>
             </label>
             <input type="text" name="lastName" required />
-          </div>
-          <div className={`${styles.formContainer} ${styles.gridSpanTwo}`}>
-            <label htmlFor="email">
-              Email <span className={styles.red}>*</span>
-            </label>
-            <input type="text" name="email" required />
           </div>
           <div className={`${styles.formContainer} ${styles.gridSpanTwo}`}>
             <label>
